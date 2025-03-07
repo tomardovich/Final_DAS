@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.gbLista = new System.Windows.Forms.GroupBox();
-            this.gbIngreso = new System.Windows.Forms.GroupBox();
-            this.dgvLista = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dgvLista = new System.Windows.Forms.DataGridView();
+            this.gbIngreso = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.gbLista.SuspendLayout();
-            this.gbIngreso.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
+            this.gbIngreso.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbLista
@@ -65,6 +65,50 @@
             this.gbLista.TabIndex = 0;
             this.gbLista.TabStop = false;
             this.gbLista.Text = "Lista";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(550, 389);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(110, 45);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(244, 366);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(110, 45);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(128, 365);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 45);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 366);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 45);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // dgvLista
+            // 
+            this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLista.Location = new System.Drawing.Point(12, 19);
+            this.dgvLista.Name = "dgvLista";
+            this.dgvLista.Size = new System.Drawing.Size(640, 340);
+            this.dgvLista.TabIndex = 2;
             // 
             // gbIngreso
             // 
@@ -87,58 +131,85 @@
             this.gbIngreso.TabStop = false;
             this.gbIngreso.Text = "Ingreso";
             // 
-            // dgvLista
+            // label5
             // 
-            this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLista.Location = new System.Drawing.Point(12, 19);
-            this.dgvLista.Name = "dgvLista";
-            this.dgvLista.Size = new System.Drawing.Size(640, 340);
-            this.dgvLista.TabIndex = 2;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Stock";
             // 
-            // button1
+            // textBox5
             // 
-            this.button1.Location = new System.Drawing.Point(12, 366);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 45);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox5.Location = new System.Drawing.Point(6, 191);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(236, 20);
+            this.textBox5.TabIndex = 16;
             // 
-            // button2
+            // label4
             // 
-            this.button2.Location = new System.Drawing.Point(128, 365);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 45);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Precio";
             // 
-            // button3
+            // textBox4
             // 
-            this.button3.Location = new System.Drawing.Point(244, 366);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 45);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox4.Location = new System.Drawing.Point(6, 152);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(236, 20);
+            this.textBox4.TabIndex = 14;
             // 
-            // button4
+            // label3
             // 
-            this.button4.Location = new System.Drawing.Point(550, 389);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(110, 45);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Descripción";
             // 
-            // button5
+            // textBox3
             // 
-            this.button5.Location = new System.Drawing.Point(132, 384);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(110, 45);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.textBox3.Location = new System.Drawing.Point(6, 113);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(236, 20);
+            this.textBox3.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Nombre";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(6, 74);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(236, 20);
+            this.textBox2.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "ID";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(236, 20);
+            this.textBox1.TabIndex = 8;
             // 
             // button6
             // 
@@ -149,85 +220,14 @@
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // button5
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(236, 20);
-            this.textBox1.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(6, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(236, 20);
-            this.textBox2.TabIndex = 10;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 97);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "label3";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(6, 113);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(236, 20);
-            this.textBox3.TabIndex = 12;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 136);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "label4";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(6, 152);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(236, 20);
-            this.textBox4.TabIndex = 14;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 175);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "label5";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(6, 191);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(236, 20);
-            this.textBox5.TabIndex = 16;
+            this.button5.Location = new System.Drawing.Point(132, 384);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(110, 45);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -239,9 +239,9 @@
             this.Name = "Form1";
             this.Text = "Final DAS";
             this.gbLista.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.gbIngreso.ResumeLayout(false);
             this.gbIngreso.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.ResumeLayout(false);
 
         }
